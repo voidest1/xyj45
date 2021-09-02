@@ -8,7 +8,7 @@
 // (See config file of driver)
 
 // Directories
-#define static 			nosave
+#define static
 #define COMMAND_DIR     "/cmds/"
 #define CONFIG_DIR     "/adm/etc/"
 #define DATA_DIR     "/data/"

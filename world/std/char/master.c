@@ -6,8 +6,6 @@
 
 int prevent_learn(object me, string skill)
 {
-   int betrayer;
-
 /*   if( betrayer = me->query("betrayer") ) {
      if( me->query_skill(skill, 1) >= this_object()->query_skill(skill, 1) - betrayer * 20 ) {
         message_vision("$N神色间似乎对$n不是十分信任，也许\是想起$p从前背叛师门的事情 ...。\n",

@@ -24,10 +24,9 @@ int main(object me, string arg)
 {
         object ob;
         mapping my;
-        string line, str, skill_type;
+        string line, skill_type;
         object weapon;
         int attack_points, dodge_points, parry_points,year,obstacles;
-        int i;
 
         seteuid(getuid(me));
 

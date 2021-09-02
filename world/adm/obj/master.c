@@ -45,7 +45,7 @@ mixed compile_object(string file)
 // This is called when there is a driver segmentation fault or a bus error,
 // etc.  As it's static it can't be called by anything but the driver (and
 // master).
-nosave void crash(string error, object command_giver, object current_object)
+static void crash(string error, object command_giver, object current_object)
 {       object *ob;
         string msg;
    int i,j=0;
@@ -82,7 +82,7 @@ nosave void crash(string error, object command_giver, object current_object)
 // Arguements:      file: a string that shows what file to read in.
 // Return:          Array of nonblank lines that don't begin with '#'
 // Note:            must be declared static (else a security hole)
-nosave string *update_file(string file)
+static string *update_file(string file)
 {
    string *list;
    string str;
