@@ -1,0 +1,7 @@
+// Room: /d/wiz/jobroom.c
+
+inherit ROOM;
+
+void create()
+{
+	set("short", "

@@ -1,0 +1,18 @@
+// netherbolt.c
+
+#include <ansi.h>
+
+inherit SSERVER;
+
+int cast(object me, object target)
+{
+	string msg;
+	int damage, ap, dp;
+
+	if( !target ) target = offensive_target(me);
+
+	if( !target
+	||	!target->is_character()
+	||	target->is_corpse()
+	||	target==me)
+		return notify_fail("

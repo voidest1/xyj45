@@ -1,0 +1,9 @@
+// gargoyle.c
+
+#include <ansi.h>
+#include <login.h>
+
+inherit NPC;
+
+string *death_msg = ({
+	HIW "フ礚盽弧笵

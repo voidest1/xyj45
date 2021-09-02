@@ -1,0 +1,12 @@
+// judge.c
+
+#include <login.h>
+#include <ansi.h>
+
+inherit NPC;
+
+int in_ask, answer;
+
+void create()
+{
+	set_name("糵

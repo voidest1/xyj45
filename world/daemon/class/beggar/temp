@@ -1,0 +1,10 @@
+// soulimpaler.c
+
+#include <ansi.h>
+#include <weapon.h>
+
+inherit SWORD;
+
+void create()
+{
+	set_name( HIW "ǜ糃

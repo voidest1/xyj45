@@ -1,0 +1,12 @@
+// master.c
+
+#include <ansi.h>
+
+inherit NPC;
+inherit F_MASTER;
+
+string ask_for_join();
+
+void create()
+{
+	set_name("纒璝猭

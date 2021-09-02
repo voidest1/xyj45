@@ -1,0 +1,9 @@
+// snake_sandal.c
+
+#include <ansi.h>
+
+inherit EQUIP;
+
+void create()
+{
+	set_name( GRN "

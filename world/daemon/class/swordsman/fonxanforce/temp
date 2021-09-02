@@ -1,0 +1,8 @@
+// heal.c
+
+#include <ansi.h>
+
+int exert(object me, object target)
+{
+	if( me->is_fighting() )
+		return notify_fail("驹矮い笲

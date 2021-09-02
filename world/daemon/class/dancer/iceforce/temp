@@ -1,0 +1,13 @@
+// chillgaze.c
+
+#include <ansi.h>
+
+inherit SSERVER;
+
+int exert(object me, object target)
+{
+	object *ob;
+	int i, skill, damage;
+
+	if( !me->is_fighting() )
+		return notify_fail("

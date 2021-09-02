@@ -1,0 +1,10 @@
+// woodcutter.c
+
+inherit NPC;
+
+void create()
+{
+	set_name("决ひ", ({ "woodcutter" }) );
+	set("gender", "╧┦" );
+	set("age", 26);
+	set("long", "

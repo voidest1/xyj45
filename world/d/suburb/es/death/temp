@@ -1,0 +1,7 @@
+// Room: /d/death/road3.c
+
+inherit ROOM;
+
+void create()
+{
+	set("short", "隔

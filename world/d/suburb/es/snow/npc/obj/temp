@@ -1,0 +1,16 @@
+// blackthorn.c
+
+#include <weapon.h>
+
+inherit SWORD;
+
+void create()
+{
+	set_name("籥党糃", ({ "whitethorn sword", "whitethorn", "sword" }) );
+	set_weight(15000);
+	if( clonep() )
+		set_default_object(__FILE__);
+	else {
+		set("unit", "р");
+		set("long",
+			"硂琌

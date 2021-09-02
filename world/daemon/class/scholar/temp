@@ -1,0 +1,12 @@
+// shiao.c
+
+inherit NPC;
+inherit F_MASTER;
+
+void consider();
+
+void create()
+{
+	set_name("拷笯剐", ({ "master fighter", "master", "fighter" }) );
+
+	set("nickname", "

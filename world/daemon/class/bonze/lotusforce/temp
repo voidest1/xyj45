@@ -1,0 +1,8 @@
+// lifeheal.c
+
+#include <ansi.h>
+
+int exert(object me, object target)
+{
+	if( !target )
+		return notify_fail("
