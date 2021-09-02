@@ -31,3 +31,4 @@ mapping obstacles = ([
   "jinping"    : " 23. 金平府／青龙山／玄英洞",
   "tianzhu"    : " 24. 天竺国／毛颖山／三连穴",
 ]);
+
