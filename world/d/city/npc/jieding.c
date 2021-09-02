@@ -56,7 +56,7 @@ int create()
   add_money("silver", 5);
   carry_object("/d/obj/cloth/sengyi")->wear();
   carry_object("/d/obj/cloth/sengxie")->wear();
-  carry_object("/d/obj/books-nonskill/book-qujing");
+  //carry_object("/d/obj/books-nonskill/book-qujing");
   set("books", 3);
   setup();
 }

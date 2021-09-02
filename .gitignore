@@ -1,3 +1,5 @@
 .DS_Store
 log/
-data/user/
+world/data/user/
+world/data/login/
+*.o
