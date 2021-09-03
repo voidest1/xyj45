@@ -59,8 +59,6 @@ void set_owner(string id)
 
 void init()
 {
-   object ob;
-
    if( this_player() && environment()==this_player() ) {
      set_owner( (string)this_player()->query("id") );
      this_player()->set_temp("mbox_ob", this_object());

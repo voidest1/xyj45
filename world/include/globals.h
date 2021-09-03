@@ -8,7 +8,6 @@
 // (See config file of driver)
 
 //兼容fluffos
-#define static
 
 // Directories
 #define COMMAND_DIR     "/cmds/"

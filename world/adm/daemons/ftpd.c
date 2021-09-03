@@ -1,7 +1,7 @@
 // 神话世界·西游记·版本４．５０
 /* <SecCrypt CPL V3R05> */
  
-#pragma save_binary
+//#pragma save_binary
 
 /*
  * ftpd.c:
@@ -1796,7 +1796,7 @@ void in_close_callback( int fd ) {
 static string get_path( int fd, string str )
 {
    string *dirlist, *dirlist1, temp;
-   int i, j, s;
+   int i, s;
 
    if ( !str || str == "" ) return socket_info[ fd ][ CWD ];
 

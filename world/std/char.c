@@ -3,7 +3,7 @@
  
 // char.c
 
-#pragma save_binary
+//#pragma save_binary
 
 #include <action.h>
 #include <ansi.h>
@@ -156,7 +156,7 @@ int command_function (string arg)
 // present(), ... so must be fast.
 int visible(object ob)
 {
-   int lvl, invis;
+   int invis;
 
 /*
    lvl = wiz_level(this_object());

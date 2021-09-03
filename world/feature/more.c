@@ -7,7 +7,7 @@
 
 varargs void more(string cmd, string *text, int line, int force)
 {
-  int i,j;
+  int i;
 
   switch(cmd) {
   case "":

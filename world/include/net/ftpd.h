@@ -114,15 +114,15 @@ mapping sitecmdtab = ([
 /*
  * these flags determine read level access
  */
-#define VALID_READ       0              // rely on valid_read()
-#define RESTRICTED_READ  1              // ditto, but limited to public dirs
-#define WRITE_LIMIT_READ 2              // access limited by write access
+//#define VALID_READ       0              // rely on valid_read()
+//#define RESTRICTED_READ  1              // ditto, but limited to public dirs
+//#define WRITE_LIMIT_READ 2              // access limited by write access
 
 /*
  * these flags determine write level access
  */
-#define VALID_WRITE      0              // rely on valid_write()
-#define RESTRICTED_WRITE 1              // ditto, but limited to public dirs
-#define READ_ONLY        2              // no write access, at all
+//#define VALID_WRITE      0              // rely on valid_write()
+//#define RESTRICTED_WRITE 1              // ditto, but limited to public dirs
+//#define READ_ONLY        2              // no write access, at all
 
 #endif /* __FTPD_H */

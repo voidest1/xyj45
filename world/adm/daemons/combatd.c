@@ -597,7 +597,6 @@ varargs int do_attack(object me, object victim, object weapon, int attack_type)
 //
 void fight(object me, object victim)
 {
-   object ob;
 
    if( !living(me) ) return;
    if( me->query_temp("netdead") )  return;

@@ -404,8 +404,6 @@ void do_pings()
 void set_mud_info(string name, mapping junk)
 {
    string tcp;
-   int new_mud;
-   int svc;
 
    if( !(ACCESS_CHECK(previous_object()))
    &&   file_name(previous_object())[0..strlen(AUX_PATH) - 1] != AUX_PATH)
@@ -605,8 +603,7 @@ void support_q_callback(mapping info)
 
 // This queries a mud just added to the database for its supported services
 // What is queries for is dependant on config.h
-private void
-query_services(string mud, string address, string port, string tcp)
+private void query_services(string mud, string address, string port, string tcp)
 {
 #ifdef PREF_MAIL
   if (!(mud_svc[mud]["mail"] & SVC_KNOWN))
@@ -692,8 +689,6 @@ string get_host_name(string name)
 
 mapping query_mud_info(string name)
 {
-   mapping m;
-   string str;
 
    name = htonn(name);
    if(name == mud_nname())
@@ -817,7 +812,6 @@ void dump_svc_keys()
 
 void set_monitor(object ob)
 {
-   string euid;
 
 /*
    euid = geteuid(previous_object());
@@ -867,7 +861,6 @@ aux_warning(string warning)
 private void
 log(string entry)
 {
-  string temp;
   log_file(MY_LOG_FILE, sprintf("%s: %s\n", ctime(time()), entry));
 }
 
@@ -885,10 +878,8 @@ void resolve_callback(string address, string my_ip, int key)
 // ----------------------------------------------------------------------------
 void create()
 {
-   mapping static_db;
    int i, j;
    string *list;
-   string *strs;
    string ip, port, *listkey;    
 
    restore_euid();
