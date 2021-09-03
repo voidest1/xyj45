@@ -50,7 +50,6 @@ int total_players()
 {
    mapping mud_list;
    mixed *muds;
-   string output;
    int loop, size, nb, total=0;
 
    if( !find_object(DNS_MASTER) )
@@ -467,7 +466,6 @@ object make_body(object ob)
 {
    string err;
    object user;
-   int n;
 
         if(!ob->query("body")) {
      return 0;
@@ -564,7 +562,7 @@ string dis_attr(int value)
 
 varargs void enter_world(object ob, object user, int silent)
 {
-   object cloth, room, mbx;
+   object  mbx;
    string startroom="";
    int num;
 

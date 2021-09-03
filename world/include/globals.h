@@ -7,8 +7,10 @@
 // This file is #included in all objects automatically by the driver.
 // (See config file of driver)
 
-// Directories
+//兼容fluffos
 #define static
+
+// Directories
 #define COMMAND_DIR     "/cmds/"
 #define CONFIG_DIR     "/adm/etc/"
 #define DATA_DIR     "/data/"
