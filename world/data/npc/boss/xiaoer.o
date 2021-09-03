@@ -1,9 +1,0 @@
-#/d/city/npc/xiaoer.c
-dbase (["per":14,"eff_sen":340,"max_kee":352,"shop_title":"店小二","str":20,"kee":352,"max_gin":340,"kar":25,"gin":340,"cor":18,"startroom":"/d/city/kezhan","shen_type":1,"eff_kee":352,"con":21,"unit":"位","eff_gin":340,"vendor_goods":(["huasheng":"/d/ourhome/obj/huasheng","jiudai":"/d/moon/obj/jiudai","jitui":"/d/ourhome/obj/jitui","gourou":"/d/ourhome/obj/gourou","zhinan":"/d/obj/misc/xiaqi-zhinan",]),"int":25,"shop_id":({"waiter","xiaoer","xiao","er",}),"can_speak":1,"race":"人类","name":"店小二","spi":20,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"actions":,"default_actions":,"id":"xiao er","cps":25,"gender":"男性","combat_exp":1000,"attitude":"friendly","max_sen":340,"sen":340,"age":26,])
-skills (["unarmed":10,])
-learned (["unarmed":0,])
-autoload ({"/obj/money/silver:1",})
-SAVE_NAME "xiaoer"
-price_ratio 10
-minimum_bid 1000
-close_time 1630665047

@@ -1,9 +1,0 @@
-#/d/city/npc/jin.c
-dbase (["per":14,"max_kee":376,"eff_sen":220,"kee":376,"str":24,"max_gin":220,"title":"珠宝行老板","gin":220,"kar":20,"cor":20,"startroom":"/d/city/zhubao","shen_type":1,"eff_kee":376,"con":23,"unit":"位","eff_gin":220,"vendor_goods":(["yupei":"/d/obj/misc/pai","jiezhi":"/d/qujing/biqiu/obj/ring","wanlian":"/d/qujing/biqiu/obj/wrists","xiangquan":"/d/qujing/biqiu/obj/neck",]),"int":28,"can_speak":1,"race":"人类","name":"金不换","spi":10,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"default_actions":,"actions":,"id":"jin buhuan","cps":12,"gender":"男性","combat_exp":10000,"attitude":"friendly","max_sen":220,"sen":220,"age":26,])
-skills (["dodge":30,"parry":30,"unarmed":30,])
-learned (["dodge":0,"parry":0,"unarmed":0,])
-autoload ({"/obj/money/silver:3",})
-SAVE_NAME "jinbuhuan"
-price_ratio 10
-minimum_bid 1000
-close_time 1630666287
